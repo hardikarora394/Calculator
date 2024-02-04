@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="312dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="657dp"
+        android:text="Calculator"
+        android:textColor="#30DDF3"
+        android:layout_gravity="center"
+        android:textSize="35dp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/ed1"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:inputType="number"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="557dp"
+        android:hint="Enter a number "
+        android:textColorHint="#100F0F"></EditText>
+
+    <EditText
+        android:id="@+id/ed2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:inputType="number"
+        android:layout_marginBottom="451dp"
+        android:hint="Enter a number "
+        android:textColorHint="#171515"></EditText>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+    </LinearLayout>
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="#E1BEF8"
+        android:layout_marginBottom="353dp"
+        android:scrollbarSize="4dp"
+        android:text="+"
+        android:backgroundTint="@color/white"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="214dp"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="@color/white"
+
+        android:text="-"
+        android:textColor="#E1BEF8"
+        android:textSize="34sp" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="114dp"
+        android:layout_marginBottom="351dp"
+        android:backgroundTint="@color/white"
+        android:text="x"
+        android:textColor="#E1BEF8"
+
+        android:textSize="34sp" />
+
+
+    <Button
+        android:id="@+id/b4"
+
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="22dp"
+        android:layout_marginBottom="274dp"
+        android:backgroundTint="@color/white"
+        android:text="/"
+
+        android:textColor="#E1BEF8"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tf"
+        android:layout_width="248dp"
+        android:layout_height="39dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="125dp"
+        android:hint="Answer is"
+        android:textColor="#090808"
+        android:textColorHighlight="#100F0F"
+        android:textColorHint="#93D843"
+        android:textSize="34sp" />
+
+</RelativeLayout>
